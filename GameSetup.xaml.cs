@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Sharplabs
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for GameSetup.xaml
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class GameSetup : Page
     {
-        public MainWindow()
+        public GameSetup()
         {
             InitializeComponent();
         }
