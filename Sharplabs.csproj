@@ -102,8 +102,20 @@
   <ItemGroup>
     <Resource Include="Splashscreen.bmp" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Stuf\" />
+    <Resource Include="Stuf\Blackbishop.svg.png" />
+    <Resource Include="Stuf\Blackking.svg.png" />
+    <Resource Include="Stuf\Blackknight.svg.png" />
+    <Resource Include="Stuf\Blackpawn.svg.png" />
+    <Resource Include="Stuf\Blackqueen.svg.png" />
+    <Resource Include="Stuf\Blacktower.svg.png" />
+    <Resource Include="Stuf\Whitebishop.svg.png" />
+    <Resource Include="Stuf\Whiteking.svg.png" />
+    <Resource Include="Stuf\Whiteknight.svg.png" />
+    <Resource Include="Stuf\Whitepawn.svg.png" />
+    <Resource Include="Stuf\Whitequeen.svg.png" />
+    <Resource Include="Stuf\Whitetower.svg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

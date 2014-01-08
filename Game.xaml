@@ -5,12 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="600"
-      MaxWidth="600"
+      MaxWidth="600" MinWidth="600"
+      MinHeight="650" MaxHeight="650"
 	  Title="Sharplabs - Game"
       Loaded="OnLoad">
     
     <Grid x:Name="LayoutRoot">
-        <UniformGrid Margin="29,10,23,-40" Height="500">
+        <UniformGrid Height="600">
             <Rectangle Stroke="Black">
                 <Rectangle.Fill>
                     <SolidColorBrush Color="Black"/>
