@@ -5,11 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
+      MinWidth="200" Width="200" MaxWidth="300"
+      MinHeight="200" Height="200" MaxHeight="200"
 	Title="Sharplabs - Splash">
 
     <Grid>
         <Button Name="splashcont" Click="splashcont_Click_1"></Button>
-        <Image HorizontalAlignment="Left" Height="170" Margin="61,62,-156,0" VerticalAlignment="Top" Width="395" Source="Splashscreen.bmp" RenderTransformOrigin="0.5,0.5">
+        <Image HorizontalAlignment="Left" Height="170" Margin="0,0,-3,0" VerticalAlignment="Top" Width="395" Source="Splashscreen.bmp" RenderTransformOrigin="0.5,0.5">
         </Image>
 
     </Grid>
