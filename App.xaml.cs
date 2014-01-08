@@ -15,7 +15,7 @@ namespace Sharplabs
     {
         void app_Startup(object sender, StartupEventArgs e)
         {
-            GameSetup setupnewgame = new GameSetup();
+            Game setupnewgame = new Game();
             setupnewgame.Show();
         }
     }

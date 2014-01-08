@@ -18,9 +18,9 @@ namespace Sharplabs
     /// <summary>
     /// Interaction logic for GameSetup.xaml
     /// </summary>
-    public partial class GameSetup : Window
+    public partial class Game : Window
     {
-        public GameSetup()
+        public Game()
         {
             InitializeComponent();
         }
