@@ -13,5 +13,10 @@ namespace Sharplabs
     /// </summary>
     public partial class App : Application
     {
+        void app_Startup(object sender, StartupEventArgs e)
+        {
+            GameSetup setupnewgame = new GameSetup();
+            setupnewgame.Show();
+        }
     }
 }

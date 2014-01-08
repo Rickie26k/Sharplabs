@@ -18,11 +18,19 @@ namespace Sharplabs
     /// <summary>
     /// Interaction logic for GameSetup.xaml
     /// </summary>
-    public partial class GameSetup : Page
+    public partial class GameSetup : Window
     {
         public GameSetup()
         {
             InitializeComponent();
         }
+
+        void OnLoad(object sender, RoutedEventArgs e)
+        {
+            Splash startsplash = new Splash();
+            startsplash.Owner = this;
+            startsplash.Show();
+        }
     }
+
 }

@@ -18,11 +18,16 @@ namespace Sharplabs
     /// <summary>
     /// Interaction logic for Splash.xaml
     /// </summary>
-    public partial class Splash : Page
+    public partial class Splash : Window
     {
         public Splash()
         {
             InitializeComponent();
+        }
+
+        private void splashcont_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

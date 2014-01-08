@@ -1,5 +1,6 @@
-﻿<NavigationWindow x:Class="Sharplabs.MainWindow"
+﻿<Window x:Class="Sharplabs.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Sharplabs" Height="350" Width="525" Source="Splash.xaml">
-</NavigationWindow>
+        Title="Sharplabs" Height="350" Width="525"
+        Loaded="Window_Loaded_1">
+</Window>

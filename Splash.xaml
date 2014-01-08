@@ -1,4 +1,4 @@
-﻿<Page x:Class="Sharplabs.Splash"
+﻿<Window x:Class="Sharplabs.Splash"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -8,16 +8,9 @@
 	Title="Sharplabs - Splash">
 
     <Grid>
-        <Image HorizontalAlignment="Left" Height="170" Margin="61,66,-156,0" VerticalAlignment="Top" Width="395" Source="Splashscreen.bmp" RenderTransformOrigin="0.5,0.5">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="21.86"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
+        <Button Name="splashcont" Click="splashcont_Click_1"></Button>
+        <Image HorizontalAlignment="Left" Height="170" Margin="61,62,-156,0" VerticalAlignment="Top" Width="395" Source="Splashscreen.bmp" RenderTransformOrigin="0.5,0.5">
         </Image>
 
     </Grid>
-</Page>
+</Window>
