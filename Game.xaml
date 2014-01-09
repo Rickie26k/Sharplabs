@@ -12,31 +12,7 @@
     
     <Grid x:Name="LayoutRoot">
         <UniformGrid Height="600">
-            <Rectangle Stroke="Black">
-                <Rectangle.Fill>
-                    <SolidColorBrush Color="Black"/>
-                </Rectangle.Fill>
-            </Rectangle>
-            <Rectangle Fill="White" Stroke="Black"/>
             <Rectangle Fill="Black" Stroke="Black"/>
-            <Rectangle Fill="White" Stroke="Black"/>
-            <Rectangle Fill="Black" Stroke="Black"/>
-            <Rectangle Fill="White" Stroke="Black"/>
-            <Rectangle Fill="Black" Stroke="Black"/>
-            <Rectangle Fill="White" Stroke="Black"/>
-            <Rectangle Fill="White" Stroke="Black"/>
-            <Rectangle Fill="Black" Stroke="Black"/>
-            <Rectangle Fill="White" Stroke="Black"/>
-            <Rectangle Fill="Black" Stroke="Black"/>
-            <Rectangle Fill="White" Stroke="Black"/>
-            <Rectangle Fill="Black" Stroke="Black"/>
-            <Rectangle Fill="White" Stroke="Black"/>
-            <Rectangle Fill="Black" Stroke="Black"/>
-            <Rectangle Stroke="Black">
-                <Rectangle.Fill>
-                    <SolidColorBrush Color="Black"/>
-                </Rectangle.Fill>
-            </Rectangle>
             <Rectangle Fill="White" Stroke="Black"/>
             <Rectangle Fill="Black" Stroke="Black"/>
             <Rectangle Fill="White" Stroke="Black"/>
@@ -52,11 +28,7 @@
             <Rectangle Fill="Black" Stroke="Black"/>
             <Rectangle Fill="White" Stroke="Black"/>
             <Rectangle Fill="Black" Stroke="Black"/>
-            <Rectangle Stroke="Black">
-                <Rectangle.Fill>
-                    <SolidColorBrush Color="Black"/>
-                </Rectangle.Fill>
-            </Rectangle>
+            <Rectangle Fill="Black" Stroke="Black"/>
             <Rectangle Fill="White" Stroke="Black"/>
             <Rectangle Fill="Black" Stroke="Black"/>
             <Rectangle Fill="White" Stroke="Black"/>
@@ -72,11 +44,23 @@
             <Rectangle Fill="Black" Stroke="Black"/>
             <Rectangle Fill="White" Stroke="Black"/>
             <Rectangle Fill="Black" Stroke="Black"/>
-            <Rectangle Stroke="Black">
-                <Rectangle.Fill>
-                    <SolidColorBrush Color="Black"/>
-                </Rectangle.Fill>
-            </Rectangle>
+            <Rectangle Fill="Black" Stroke="Black"/>
+            <Rectangle Fill="White" Stroke="Black"/>
+            <Rectangle Fill="Black" Stroke="Black"/>
+            <Rectangle Fill="White" Stroke="Black"/>
+            <Rectangle Fill="Black" Stroke="Black"/>
+            <Rectangle Fill="White" Stroke="Black"/>
+            <Rectangle Fill="Black" Stroke="Black"/>
+            <Rectangle Fill="White" Stroke="Black"/>
+            <Rectangle Fill="White" Stroke="Black"/>
+            <Rectangle Fill="Black" Stroke="Black"/>
+            <Rectangle Fill="White" Stroke="Black"/>
+            <Rectangle Fill="Black" Stroke="Black"/>
+            <Rectangle Fill="White" Stroke="Black"/>
+            <Rectangle Fill="Black" Stroke="Black"/>
+            <Rectangle Fill="White" Stroke="Black"/>
+            <Rectangle Fill="Black" Stroke="Black"/>
+            <Rectangle Fill="Black" Stroke="Black"/>
             <Rectangle Fill="White" Stroke="Black"/>
             <Rectangle Fill="Black" Stroke="Black"/>
             <Rectangle Fill="White" Stroke="Black"/>
